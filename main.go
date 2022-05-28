@@ -10,9 +10,9 @@ func Init() {
 }
 
 func main() {
-
+	Init()
 	r := gin.Default()
 	Router(r)
-	Init()
+
 	r.Run()
 }
